@@ -51,6 +51,7 @@ console.log(MY_FAVORITE_BRANDS_CHEAPEST);
 // 2. Log the variable
 
 const numprod = marketplace.length
+console.log(numprod)
 
 // 🎯 TODO: Brands name
 // 1. Create a variable and assign it the list of brands name only
