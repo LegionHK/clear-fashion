@@ -60,6 +60,7 @@ console.log(numberprod);
 
 const brandName = marketplace.map(product => product.brand);
 let unique = [...new Set(brandName)]
+
 console.log(unique);
 
 // 🎯 TODO: Sort by price
@@ -67,17 +68,30 @@ console.log(unique);
 // 2. Create a variable and assign it the list of products by price from lowest to highest
 // 3. Log the variable
 
+marketplace.sort((a, b) => {
+    return a.price - b.price;
+});
+
+console.log(marketplace)
 
 // 🎯 TODO: Sort by date
 // 1. Create a function to sort the marketplace objects by products date
 // 2. Create a variable and assign it the list of products by date from recent to old
 // 3. Log the variable
 
+marketplace.sort((a, b) => {
+    return new Date(a.date) - new Date(b.date);
+});
+
+console.log(marketplace)
 
 // 🎯 TODO: Filter a specific price range
 // 1. Filter the list of products between 50€ and 100€
 // 2. Log the list
 
+const result = marketplace.filter(product => product.price < 100 && product.price > 50);
+
+console.log(result)
 
 // 🎯 TODO: Average Basket
 // 1. Determine the average basket of the marketplace
