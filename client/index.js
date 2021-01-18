@@ -34,13 +34,8 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // I can find on these e-shops
 // 2. Log the variable
 
-const MY_FAVORITE_BRANDS_CHEAPEST = [{
-  'name': 'Cheapest T-shirt',
-  'url': 'https://www.loom.fr/collections/tous-les-vetements/products/le-t-shirt'
-}]
-
-console.table(MY_FAVORITE_BRANDS_CHEAPEST);
-console.log(MY_FAVORITE_BRANDS_CHEAPEST[0]);
+const MY_FAVORITE_BRANDS_CHEAPEST = 'https://www.loom.fr/collections/tous-les-vetements/products/le-t-shirt'
+console.log(MY_FAVORITE_BRANDS_CHEAPEST);
 
 /**
  * 👕
