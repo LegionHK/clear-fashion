@@ -130,6 +130,9 @@ console.log("average : " + avg)
 // 2. Log the variable
 // 3. Log the number of products by brands
 
+const brands = {}
+
+
 
 // 🎯 TODO: Sort by price for each brand
 // 1. For each brand, sort the products by price, from highest to lowest
