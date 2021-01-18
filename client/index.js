@@ -34,9 +34,13 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // I can find on these e-shops
 // 2. Log the variable
 
+const MY_FAVORITE_BRANDS_CHEAPEST = [{
+  'name': 'Cheapest T-shirt',
+  'url': 'https://www.loom.fr/collections/tous-les-vetements/products/le-t-shirt'
+}]
 
-
-
+console.table(MY_FAVORITE_BRANDS_CHEAPEST);
+console.log(MY_FAVORITE_BRANDS_CHEAPEST[0]);
 
 /**
  * 👕
@@ -50,6 +54,7 @@ console.log(MY_FAVORITE_BRANDS[0]);
 // 🎯 TODO: Number of products
 // 1. Create a variable and assign it the number of products
 // 2. Log the variable
+
 
 
 // 🎯 TODO: Brands name
