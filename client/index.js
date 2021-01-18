@@ -97,8 +97,14 @@ console.log(result)
 // 1. Determine the average basket of the marketplace
 // 2. Log the average
 
+var sum = 0;
+for( var i = 0; i < marketplace.length; i++ ){
+    sum += parseInt( marketplace[i].price, 10 );
+}
 
+var avg = sum/marketplace.length;
 
+console.log("average : " + avg)
 
 
 /**
