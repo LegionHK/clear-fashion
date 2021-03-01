@@ -42,7 +42,7 @@ function parseHomePage (data) {
 };
 
 
-module.exports.getPages = async (url = DEDICATED_BRAND) {
+module.exports.getPages = async function(url = DEDICATED_BRAND) {
   const response = await axios(url);
   const {data, status} = response;
 
